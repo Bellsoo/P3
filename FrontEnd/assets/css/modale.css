@@ -1,0 +1,366 @@
+/* Style de la modale */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    /* Placez la modale au-dessus des autres éléments */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    
+    
+  }
+  
+  
+  /* MODAL CONTENT 1 */
+  
+  .modal-content1 {
+  
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 40px 40px;
+    border: 1px solid #888;
+    width: 630px;
+    height: 731px;
+    display: flex;
+    /* none si content 2 s'affiche */
+    flex-direction: column;
+    
+    border-radius: 10px;
+  }
+  
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+  hr {
+    
+    color: #B3B3B3;
+    width: 420px;
+    height: 0px;
+    border: 1px solid #B3B3B3;
+    
+    left: 510px;
+    top: 1229px;
+  }
+  
+  .trait-m2{
+    margin-top: 50px;
+  }
+  
+  /* MODAL CONTENT 2 */
+  
+  .modal-content2 {
+    display: none;/* none par defaut content 2 est caché */
+    flex-direction: column;
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 630px;
+    height: 670px;
+    padding: 40px 40px;
+    border-radius: 10px;
+  
+  }
+  
+  /* .modal-content1 .modal-content2 {
+    padding: 20px;
+    border: none;
+  
+  } */
+  
+  .modal-content-title {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .modal-body {
+    /* margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;*/
+  
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  } 
+  
+  #gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px 10px;
+    margin-bottom: 60px;
+  }
+  
+  .figureModal{
+    /* width: 17%; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 78.123px;
+  height: 104.08px;
+  flex-shrink: 0;
+  }
+  .figureModal > img{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+  }
+  .deleteIcon{
+    position: absolute;
+    right: 6px;
+    top: 8px;
+    background-color: black;
+    border-radius: 3px;
+    width: 21px;
+    height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .deleteIcon>i{
+    color: white;
+    font-size: 13px;
+  }
+  .editer{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+  }
+  
+  
+  .trait {
+    border: none;
+    color: #B3B3B3;
+    width: 420px;
+    height: 0px;
+    border: 1px solid #B3B3B3;
+    position: absolute;
+    left: 510px;
+    top: 1229px;
+  }
+  
+  .add {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  
+  #ajouterPhoto {
+    border: #1D6154 1px solid;
+    border-radius: 25px;
+    background-color: #1D6154;
+    color: white;
+    font-family: 'syne';
+    padding: 12px 70px;
+    margin: 20px 0px;
+  }
+  
+  .writing-red {
+    font-family: 'syne';
+    color: #D65353;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 20px 0px;
+  
+  }
+  
+  
+  
+  /* the return button */
+  
+  .return {
+    color: #aaa;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .return:hover,
+  .return:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-content-title {
+    color: black;
+    font-family: 'work sans';
+    font-weight: 400;
+    padding-bottom: 50px;
+      padding-top: 10px;
+  
+  }
+  
+  .icones-retrun-trash{
+    position: absolute;
+    right:0; top: 0;
+    
+  }
+  
+  .hover-return{
+    display: none;
+  }
+  .hover-return:hover{
+    display: flex;
+  
+  }
+  
+  .modal-2-body {
+    background-color: #E8F1F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 420px;
+    height: 170px;
+    position: relative;
+  }
+  
+  .picture-top{
+    display: none;
+  }
+  
+  .color-ajout-image-logo {
+    color: #B9C5CC;
+  }
+  
+  .fa-image{
+   color: gray;
+   font-size: 70px;
+  }
+  .AjouterPhoto {
+    background-color: #CBD6DC;
+    color: #306685;
+    border: none;
+    border-radius: 50px;
+    width: 173px;
+    height: 36px;
+    margin: 10px;
+  }
+  
+  #imageSelected {
+    height: 169px;
+    width: auto;
+  }
+  
+  .close-mini {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  
+  .input-title {
+    color: #3D3D3D;
+    font-size: 14px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo-ecrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ecrito {
+    color: #444;
+    text-align: center;
+    font-size: 10px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .formulairetc{
+    margin-top: 20px;
+  }
+  .bordurenone {
+    border: none;
+    box-shadow: 00px 10px 16px -2px rgba(131, 131, 131, 0.164);
+  
+    width: 420px;
+    height: 51px;
+  }
+  
+  .option-select{
+    font-family: 'Syne';
+    width: 420px;
+    height: 51px;
+    color: #444;
+  }
+    
+  
+  .small-title-modal{
+    margin-top: 20px;
+    color: #3D3D3D;
+  font-size: 14px;
+  font-family: Work Sans;
+  font-style: normal;
+  
+  line-height: normal;
+  font-weight: 600;
+  }
+  
+  .space {
+    margin: 5px;
+  }
+  
+  
+  
+  input[type="submit"] {
+    font-family: 'Syne';
+    font-weight: 700;
+    color: white;
+    background-color: #A7A7A7;
+    margin: 3em auto;
+    text-align: center;
+    border-radius: 60px;
+    border: 1px solid #A7A7A7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 237px;
+  height: 36px;
+  flex-shrink: 0;
+  background: #1D6154;
+  padding: 20px 15px;
+  }
+  
+  input[type="submit"]:hover input[type="submit"]:focus {
+    background-color: black;
+  }
+  
+  
