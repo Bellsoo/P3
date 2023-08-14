@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Work+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <h1>Sophie Bluel <span>Architecte d'inteérieur</span></h1>
+        <nav class="header">
+
+            <ul class="category-filter">
+                <li class="menu"><a class="element-menu" href="./index.html">projets</a></li>
+                <li class="menu">contact</li>
+                <li class="menu" id="login"><a class="element-menu logg" href="./login.html">login</a></li>
+                <!-- <li class="menu" id="logout">logout</li> -->
+                <li><img class="insta" src="./assets/icons/instagram.png" alt="Instagram"></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contenu">
+
+
+            <form class="formulairelog" id="loginForm">
+                <div class="title-and-form">
+                    <h1 class="log-in">Log in</h1>
+                    <div class="input-title space">
+                        <label for="email">E-mail :</label>
+                        <input type="email" id="email" class="bordurenone" required>
+                    </div>
+
+                    <div class="input-title space">
+                        <label for="password">Mot de passe :</label>
+                        <input type="password" id="Mot-de-passe" class="bordurenone" required>
+                    </div>
+                </div>
+                <div class="submit-mdp">
+
+                    <input type="submit" class="space stylemdpo" value="Se connecter">
+                    <span class="space underligne ">Mot de passe oublié</span>
+
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li class="info-footer">Mentions Légales</li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="./js/login.js"></script>
+</body>
+
+
+</html>
