@@ -1,0 +1,88 @@
+
+body{
+    background-color: white;
+}
+
+.logg{
+    font-weight: 900;
+}
+.log-in{
+    color: #1D6154;
+    font-weight: 700;
+    size: 50px;
+    height: 50px;
+    font-size: x-large;
+    font-stretch: condensed;
+}
+input:focus {
+    outline: none;
+}
+.input-title {
+    display: flex;
+    flex-direction: column;
+    font-weight: 200;
+    padding-bottom: 25px;
+    font-size: 13px;
+}
+
+.space {
+    margin: 5px;
+}
+/*  */
+
+.bordurenone {
+    border: none;
+    box-shadow: 00px 10px 16px -2px rgba(131, 131, 131, 0.164);
+    width: 379px;
+    height: 51px;
+}
+
+.stylemdpo {
+    padding: 10px 40px;
+    font-size: 14px;
+    border-radius: 25px;
+    background-color: #1D6154;
+    border-color: #1D6154;
+    font-family: "syne";
+    border-style: none;
+    color: white;
+    font-weight: 700;
+    
+}
+
+.underligne {
+    color: black;
+font-family: Work Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+.title-and-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submit-mdp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li:hover {
+	color: black;
+}
+
+.info-footer{
+    display: flex;
+    padding-top: 200px;
+    color: #000;
+font-family: Work Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
