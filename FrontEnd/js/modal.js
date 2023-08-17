@@ -195,11 +195,22 @@ function previewImage(event){
 function closePicture(){
   let imageAffichee = document.querySelector(".picture-top");
   imageAffichee.style.display ="none";
-  document.getElementById("imageSelected").src = "";
-  document.querySelector(".AjouterPhoto").style.display ="block";
-  document.querySelector(".fa-image-landscape").style.display ="block";
-  document.querySelector("#file").style.display ="none";
-  document.querySelector(".ecrito").style.display ="block";  
+  // document.getElementById("imageSelected").src = "";
+  // document.querySelector(".AjouterPhoto").style.display ="block";
+  // document.querySelector("#iModalImage").style.display ="block";
+  // document.querySelector("#file").style.display ="none";
+  // document.querySelector(".ecrito").style.display ="block"; 
+  let blockImageReference = document.querySelector(".modal-2-body"); 
+  blockImageReference.style.display="flex";
+
+  let logoBlock = document.querySelector(".logo-ecrito");
+  logoBlock.style.display="flex";
+
+  let buttonBlock = document.querySelector(".AjouterPhoto");
+  buttonBlock.style.display="block";
+
+  let ecritoBlock = document.querySelector(".ecrito");
+  ecritoBlock.style.display="flex";
 }
 
 
